@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f4b347</color>
+
+    <color name="colorPrisdmary">#FAA210</color>
+
+    <color name="colorPrimaryDark">#c28e38</color>
+    <color name="colorPrimaryLight">#fff</color>
+    <color name="colorAccent">#fff</color>
+<color name="background">#3d3d3d</color>
+    <color name="yellow_text">#f4b347</color>
+    <color name="gray_border">#A2A2A2</color>
+    <color name="dark_gray">#6D6D6D</color>
+    <color name="yellow">#feAA2D</color>
+    <color name="text_white">#fff</color>
+    <color name="text_black">#000</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="black_alpha">#7f7f7f</color>
+    <color name="black_alpha2">#2f2f1e</color>
+    <!--Dailer :-->
+    <!--Follow Up : c64efe-->
+    <!--Call Report : b929fd-->
+    <!--Closer : ac02fd-->
+    <!--Menu : 00aff0-->
+
+    <!--Top Header : 0085b7-->
+    <!--Background : e2e2e2-->
+    <!--jeevan Shelar bg : 818181-->
+    <!--Deal Closed bg : bb2cfe-->
+</resources>
