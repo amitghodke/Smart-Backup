@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.smartbackup.activity.SpashScreenActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_settings"
+        android:title="Settings"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_feddback"
+        android:orderInCategory="100"
+        android:title="Feedback"
+        android:icon="@mipmap/ic_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:icon="@mipmap/ic_settings"
+
+        android:title="Help"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:title="Share"
+        android:icon="@mipmap/ic_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_update"
+        android:orderInCategory="100"
+        android:title="Update"
+        android:icon="@mipmap/ic_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="About"
+        android:icon="@mipmap/ic_settings"
+        app:showAsAction="never" />
+</menu>
