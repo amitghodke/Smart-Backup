@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#f4b347</color>
+    <color name="colorPrimary">#74A621</color>
 
-    <color name="colorPrisdmary">#FAA210</color>
+    <color name="colorPrisdmary">#567b19</color>
 
-    <color name="colorPrimaryDark">#c28e38</color>
+    <color name="colorPrimaryDark">#567b19</color>
     <color name="colorPrimaryLight">#fff</color>
-    <color name="colorAccent">#fff</color>
-<color name="background">#3d3d3d</color>
-    <color name="yellow_text">#f4b347</color>
+    <color name="colorAccent">#99d634</color>
+    <color name="background">#3d3d3d</color>
+    <color name="yellow_text">#74A621</color>
     <color name="gray_border">#A2A2A2</color>
     <color name="dark_gray">#6D6D6D</color>
-    <color name="yellow">#feAA2D</color>
+    <color name="yellow">#74A621</color>
     <color name="text_white">#fff</color>
     <color name="text_black">#000</color>
     <color name="black">#000</color>

@@ -28,12 +28,19 @@ public class DashboardActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_dashboard,menu);
-        return true;
+        return super.onCreateOptionsMenu(menu);
     }
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        Log.d("tag", "onPrepareOptionsMenu called");
+        return super.onPrepareOptionsMenu(menu);
+    }
+
     @Override
     public boolean onMenuOpened(int featureId, Menu menu)
     {
-     //   if(featureId == Window.FEATURE_ACTION_BAR && menu != null)
+        //featureId == Window.FEATURE_ACTION_BAR &&
+        if( menu != null)
         {
             if(menu.getClass().getSimpleName().equals("MenuBuilder")){
                 try{

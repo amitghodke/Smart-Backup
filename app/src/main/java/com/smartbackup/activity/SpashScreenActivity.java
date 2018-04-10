@@ -18,6 +18,7 @@ public class SpashScreenActivity extends BaseActivity
             @Override
             public void run() {
                 startActivity(new Intent(getApplicationContext(),DashboardActivity.class));
+                SpashScreenActivity.this.finish();
             }
         },5000);
     }
