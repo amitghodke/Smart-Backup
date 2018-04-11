@@ -303,7 +303,7 @@ public abstract class BaseActivity extends AppCompatActivity {
 		setSupportActionBar(mToolbar);
 		getSupportActionBar().setHomeButtonEnabled(true);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-		getSupportActionBar().setDisplayShowHomeEnabled(true);
+		//getSupportActionBar().setDisplayShowHomeEnabled(true);
 		getSupportActionBar().setTitle(mTitle);
 	}
 	protected Toolbar getAppToolbar(){

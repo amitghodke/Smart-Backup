@@ -3,12 +3,10 @@ package com.smartbackup.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.Menu;
-import android.view.MenuItem;
 
 import com.smartbackup.R;
 
-public class SpashScreenActivity extends BaseActivity
+public class SplashScreenActivity extends BaseActivity
 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +16,7 @@ public class SpashScreenActivity extends BaseActivity
             @Override
             public void run() {
                 startActivity(new Intent(getApplicationContext(),DashboardActivity.class));
-                SpashScreenActivity.this.finish();
+                SplashScreenActivity.this.finish();
             }
         },5000);
     }
