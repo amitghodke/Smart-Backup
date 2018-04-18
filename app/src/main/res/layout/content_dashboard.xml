@@ -7,5 +7,123 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".activity.DashboardActivity"
     tools:showIn="@layout/activity_dashboard">
+    <LinearLayout
+        android:padding="@dimen/padding_10"
+        android:orientation="vertical"
+        android:id="@+id/linearSmartBackup"
+        android:background="#ffeeeeee"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="#ffeeeeee" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.5" android:layout_weight="0.6">
+            <LinearLayout android:orientation="horizontal" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0" android:layout_weight="0.5">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="0.100000024dip" android:layout_marginBottom="0.100000024dip" android:layout_weight="0.5">
+                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@+id/cardDialer" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardElevation="4.0dip">
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_dailer_icon" />
 
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="10.0dip"
+                                android:text="App"
+                                android:textColor="@color/text_black"
+                                android:textSize="18.0sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.100000024dip" android:layout_marginBottom="0.100000024dip" android:layout_weight="0.5">
+                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/cardCallReport" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardElevation="4.0dip">
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_call_report_icon" />
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="10.0dip"
+                                android:text="SMS"
+                                android:textColor="@color/text_black"
+                                android:textSize="18.0sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0" android:layout_weight="0.5">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="0.100000024dip" android:layout_marginRight="0.100000024dip" android:layout_weight="0.5">
+                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/cardFollowUp" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardElevation="4.0dip">
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_followup_icon" />
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="10.0dip"
+                                android:text="Contacts"
+                                android:textColor="@color/text_black"
+                                android:textSize="18.0sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.100000024dip" android:layout_marginTop="0.100000024dip" android:layout_weight="0.5">
+                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/cardCloser" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardElevation="4.0dip">
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_closer_icon" />
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="10.0dip"
+                                android:text="Call Logs"
+                                android:textColor="@color/text_black"
+                                android:textSize="18.0sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0" android:layout_weight="0.5">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="0.100000024dip" android:layout_marginRight="0.100000024dip" android:layout_weight="0.5">
+                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/cardSummary" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardElevation="4.0dip">
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_summary_icon" />
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="10.0dip"
+                                android:text="Calendars"
+                                android:textColor="@color/text_black"
+                                android:textSize="18.0sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.100000024dip" android:layout_marginTop="0.100000024dip" android:layout_weight="0.5">
+                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/cardSearch" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardElevation="4.0dip">
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_search_icon" />
+
+                            <TextView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="10.0dip"
+                                android:text="Bookmarks"
+                                android:textColor="@color/text_black"
+                                android:textSize="18.0sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </android.support.v7.widget.CardView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
