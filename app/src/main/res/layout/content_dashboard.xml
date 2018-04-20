@@ -20,7 +20,7 @@
                 <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="0.100000024dip" android:layout_marginBottom="0.100000024dip" android:layout_weight="0.5">
                     <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@+id/cardDialer" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardElevation="4.0dip">
                         <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="fill_parent">
-                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_dailer_icon" />
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_launcher" />
 
                             <TextView
                                 android:layout_width="fill_parent"
@@ -35,9 +35,9 @@
                     </android.support.v7.widget.CardView>
                 </LinearLayout>
                 <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.100000024dip" android:layout_marginBottom="0.100000024dip" android:layout_weight="0.5">
-                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/cardCallReport" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardElevation="4.0dip">
+                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@+id/cardCallReport" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardElevation="4.0dip">
                         <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="fill_parent">
-                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_call_report_icon" />
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_launcher" />
 
                             <TextView
                                 android:layout_width="fill_parent"
@@ -54,9 +54,9 @@
             </LinearLayout>
             <LinearLayout android:orientation="horizontal" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0" android:layout_weight="0.5">
                 <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="0.100000024dip" android:layout_marginRight="0.100000024dip" android:layout_weight="0.5">
-                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/cardFollowUp" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardElevation="4.0dip">
+                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@+id/cardFollowUp" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardElevation="4.0dip">
                         <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="fill_parent">
-                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_followup_icon" />
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_launcher" />
 
                             <TextView
                                 android:layout_width="fill_parent"
@@ -71,9 +71,9 @@
                     </android.support.v7.widget.CardView>
                 </LinearLayout>
                 <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.100000024dip" android:layout_marginTop="0.100000024dip" android:layout_weight="0.5">
-                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/cardCloser" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardElevation="4.0dip">
+                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@+id/cardCloser" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardElevation="4.0dip">
                         <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="fill_parent">
-                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_closer_icon" />
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_launcher" />
 
                             <TextView
                                 android:layout_width="fill_parent"
@@ -90,9 +90,9 @@
             </LinearLayout>
             <LinearLayout android:orientation="horizontal" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0" android:layout_weight="0.5">
                 <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="0.100000024dip" android:layout_marginRight="0.100000024dip" android:layout_weight="0.5">
-                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/cardSummary" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardElevation="4.0dip">
+                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@+id/cardSummary" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardElevation="4.0dip">
                         <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="fill_parent">
-                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_summary_icon" />
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_launcher" />
 
                             <TextView
                                 android:layout_width="fill_parent"
@@ -107,9 +107,9 @@
                     </android.support.v7.widget.CardView>
                 </LinearLayout>
                 <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.100000024dip" android:layout_marginTop="0.100000024dip" android:layout_weight="0.5">
-                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@id/cardSearch" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardElevation="4.0dip">
+                    <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@+id/cardSearch" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardElevation="4.0dip">
                         <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/padding_10" android:layout_width="fill_parent" android:layout_height="fill_parent">
-                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_search_icon" />
+                            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_launcher" />
 
                             <TextView
                                 android:layout_width="fill_parent"
